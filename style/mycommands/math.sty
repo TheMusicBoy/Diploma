@@ -1,0 +1,57 @@
+\RequirePackage{graphicx}
+\RequirePackage{caption}
+\RequirePackage{subcaption}
+\RequirePackage{wrapfig}
+\RequirePackage{import}
+\RequirePackage{float}
+\RequirePackage{pdfpages}
+\RequirePackage{transparent}
+\RequirePackage{geometry}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{diagbox}
+% \RequirePackage{mathabx}
+% \RequirePackage{accents}
+\RequirePackage{cancel}
+\RequirePackage{xfrac}
+
+% \RequirePackage{marvosym}
+
+\RequirePackage{chngcntr}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+\counterwithin*{figure}{section}
+\counterwithin*{figure}{subsection}
+
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\Real}{Re}
+\DeclareMathOperator{\Imag}{Im}
+\DeclareMathOperator{\const}{const}
+\DeclareMathOperator{\cov}{cov}
+
+% \DeclareMathOperator{\sinh}{sinh}
+% \DeclareMathOperator{\cosh}{cosh}
+% \DeclareMathOperator{\tanh}{tanh}
+% \DeclareMathOperator{\cotanh}{cotanh}
+
+\newcommand{\defeq}{\stackrel{\scriptscriptstyle \operatorname{def}}{=}}
+\newcommand{\rfrac}[2]{\left. #1 \middle/ #2 \right.}
+
+\newcommand{\rimint}[1]{\MakeUppercase{\romannumeral #1}}
+
+\newcommand{\ttxt}[1]{\tiny\begin{tabular}{c}
+    #1
+\end{tabular}}
+\newcommand{\txt}[1]{\begin{tabular}{c}
+    #1
+\end{tabular}}
+
+\newcommand{\rif}{\text{, если }}
+\newcommand{\ror}{\text{ или }}
+\newcommand{\rand}{\text{ и }}
+\newcommand{\rthen}{\text{, тогдa }}
